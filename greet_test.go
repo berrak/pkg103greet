@@ -31,7 +31,7 @@ func TestGreet(t *testing.T) {
 		{"ru", "Здравствуйте"},
 	}
 	for _, test := range tests {
-		got := greetMe(test.languageCode)
+		got := GreetMe(test.languageCode)
 		if got != test.greetings {
 			t.Errorf("Want: %s but got %s", test.greetings, got)
 		}

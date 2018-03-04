@@ -12,10 +12,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-// pkg103greet returns a greeting in a few different languages.
+// pkg103greet library contains greetings in few different languages.
 package pkg103greet
 
-func greetMe(langcode string) string {
+// GreetMe takes the country code from en, it, po, sp and ru and returns 'Hello' in that language
+func GreetMe(langcode string) string {
 
 	var greet string
 	switch langcode {
