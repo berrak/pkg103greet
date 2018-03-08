@@ -1,9 +1,18 @@
 ## pkg103greet
 
 ### Simple golang repository structure for a single library
-Shows howto debanize the pkg103greet library without any vendor dependencies.
+Shows howto debianize the pkg103greet library without any vendor dependencies.
 The packaging process can be easy or it may require more effort based on the repository layout.
 The required commands is under *docs* and is based on Debian stretch (stable) and use dh-make-golang and other standard Debian tools.
+
+```bash
+├── docs
+│   └── debanize_pkg103greet.md
+├── greet.go
+├── greet_test.go
+├── LICENSE
+└── README.md
+```
 
 ### API example
 ```bash
